@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Limpar CPF</title>
+</head>
+
+<body>
+  <style>
+    body {
+      background: #f2f2f2;
+    }
+
+    label {
+      font-family: 'IBM Plex Mono';
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .cpf {
+      display: block;
+      padding: 10px;
+      width: 30%;
+      outline: none;
+      border: 2px solid black;
+    }
+
+    .error {
+      border: 2px solid red
+    }
+
+    .success {
+      border: 2px solid green
+    }
+  </style>
+  <form action="">
+    <label for="cpf">CPF</label>
+    <input class="cpf" name="cpf" type="text" id="cpf">
+  </form>
+  <script type="module" src="script.js"></script>
+</body>
+
+</html>
