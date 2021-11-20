@@ -24,4 +24,5 @@ cpf.limpar
 // Ignora qualquer tipo de pontuação ou espaço no input para transformar o valor apenas em números.
 ~~~
 <br>
-**OBS**: Mesmo que sejam métodos, as funções são ativadas como propriedades pois as mesmas possuem o comportamento de Get em sua classe, para que não seja possível mudar os seus valores.
+
+**OBS**: Mesmo que sejam métodos, as funções são ativadas como propriedades pois as mesmas possuem o comportamento de `Get` em sua classe, para que não seja possível mudar os seus valores.
